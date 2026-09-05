@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CROP LAND- Farmer Dashboard</title>
+
+    <link rel="stylesheet" href="css/style1.css">
+
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <header>
+
+        <div class="logo">
+            🌾 CROP LAND
+        </div>
+
+        <nav>
+            <a href="farmaland.html">Home</a>
+            <a href="#">My Products</a>
+            <a href="my-orders.html">My Orders</a>
+            <a href="#">Messages</a>
+            <a href="#">Profile</a>
+            <a href="farmaland.html">Logout</a>
+        </nav>
+
+    </header>
+
+
+    <!-- DASHBOARD -->
+
+    <main class="dashboard">
+
+        <!-- SIDEBAR -->
+
+        <aside class="sidebar">
+
+            <h2>Farmer Panel</h2>
+
+            <a href="#" class="active">Dashboard</a>
+
+            <a href="#">My Products</a>
+
+            <a href="#">Add Product</a>
+
+            <a href="my-orders.html">My Orders</a>
+
+            <a href="#">Messages</a>
+
+            <a href="#">Profile</a>
+
+            <a href="farmaland.html">Logout</a>
+
+        </aside>
+
+
+        <!-- MAIN CONTENT -->
+
+        <section class="dashboard-content">
+
+            <h1>Farmer Dashboard</h1>
+
+            <p>
+                Add your agricultural products and connect directly
+                with shopkeepers.
+            </p>
+
+
+            <!-- ADD PRODUCT CARD -->
+           
+
+            <section class="incoming-orders">
+
+    <h2>Incoming Order Requests</h2>
+
+    <div id="orderRequestContainer">
+
+        <p>No new order requests.</p>
+
+    </div>
+
+</section>
+            <div class="product-form">
+
+                <h2>Add New Product</h2>
+
+
+                <label>Product Name</label>
+
+                <input type="text"
+                       placeholder="Example: Wheat">
+
+
+                <label>Quantity Available(in Kg)</label>
+
+                <input type="number"
+                       placeholder="Example: 500">
+
+
+                <label>Price per kg (₹)</label>
+
+                <input type="number"
+                       placeholder="Example: 28">
+
+
+                <label>Location</label>
+
+                <input type="text"
+                       placeholder="Example: Latur, Maharashtra">
+
+
+                <label>Quality Grade</label>
+
+                <select>
+
+                    <option>Select quality grade</option>
+
+                    <option>A Grade</option>
+
+                    <option>B Grade</option>
+
+                    <option>C Grade</option>
+
+                </select>
+
+
+                <label>Description</label>
+
+                <textarea
+                    placeholder="Describe your product..."></textarea>
+
+
+                <label>Upload Product Image</label>
+
+                <input type="file"
+                       accept="image/*">
+
+
+                <button type="button" id="addProductBtn">
+    Add Product
+</button>
+                    
+                
+
+            </div>
+
+        </section>
+
+    </main>
+    
+
+    <script src="js/script.js"></script>
+
+
+
+</body>
+
+</html>

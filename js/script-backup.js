@@ -55,19 +55,10 @@ document.addEventListener("DOMContentLoaded", function () {
             };
 
 
-           let products =
-    JSON.parse(
-        localStorage.getItem("farm2landProducts")
-    ) || [];
-
-
-products.push(product);
-
-
-localStorage.setItem(
-    "farm2landProducts",
-    JSON.stringify(products)
-);
+            localStorage.setItem(
+                "farm2landProduct",
+                JSON.stringify(product)
+            );
 
 
             alert("Product added successfully!");
